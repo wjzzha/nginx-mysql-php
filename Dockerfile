@@ -31,7 +31,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 
 WORKDIR /var/www/html
 
-EXPOSE 80
 
 VOLUME ["/var/log/nginx"]
 
